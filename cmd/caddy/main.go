@@ -33,6 +33,9 @@ import (
 
 	// plug in Caddy modules here
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
+
+	// ACME DNS challenge
+	_ "github.com/caddy-dns/cloudflare"
 )
 
 func main() {
